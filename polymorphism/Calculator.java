@@ -12,11 +12,11 @@ package polymorphism;
 // Example of method overloading:
 
 public class Calculator {
-    public Integer add (int x, int y) {
+    public Integer add(int x, int y) {
         return x + y;
     }
     
-    public Integer add (int x, int y, int z) {
+    public Integer add(int x, int y, int z) {
         return x + y + z;
     }
 

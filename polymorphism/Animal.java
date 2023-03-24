@@ -12,5 +12,7 @@ package polymorphism;
 // Example of method overriding:
 
 public class Animal {
-
+    public String speak() {
+        return "An animal makes a sound";
+    }
 }
