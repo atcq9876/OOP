@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism.methodOverloading;
 
 // POLYMORPHISM AND METHOD OVERLOADING
 
