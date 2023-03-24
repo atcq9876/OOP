@@ -1,5 +1,7 @@
 package polymorphism;
 
+// POLYMORPHISM AND METHOD OVERRIDING
+
 // Polymorphism refers to the ability of objects to take on multiple forms or
 // behaviors. In OOP, polymorphism is achieved through method overloading and
 // method overriding.
@@ -9,3 +11,6 @@ package polymorphism;
 // enables a subclass to customize or extend the behavior of its superclass.
 // Example of method overriding:
 
+public class Animal {
+
+}
