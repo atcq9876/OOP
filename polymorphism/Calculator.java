@@ -9,3 +9,21 @@ package polymorphism;
 // for multiple tasks, which makes code more readable and reduces complexity.
 // Example of method overloading:
 
+public class Calculator {
+    public Integer add (int x, int y) {
+        return x + y;
+    }
+    
+    public Integer add (int x, int y, int z) {
+        return x + y + z;
+    }
+
+    public static void main(String[] args) {
+        // code to be executed
+        Calculator calc = new Calculator();
+        int result1 = calc.add(1, 2);
+        System.out.println(result1);
+        int result2 = calc.add(3, 4, 5);
+        System.out.println(result2);
+    }
+}
