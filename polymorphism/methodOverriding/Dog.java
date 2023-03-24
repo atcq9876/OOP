@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism.methodOverriding;
 
 // POLYMORPHISM AND METHOD OVERRIDING
 
@@ -9,10 +9,10 @@ package polymorphism;
 // Method overriding, on the other hand, allows a subclass to provide its own
 // implementation of a method that is already defined in its superclass. This
 // enables a subclass to customize or extend the behavior of its superclass.
-// Example of method overriding:
+// Example of method overriding (see App, Animal and Cat classes too):
 
-public class Animal {
-    public String speak() {
-        return "An animal makes a sound";
+public class Dog extends Animal {
+    public void speak() {
+        System.out.println("Woof!");
     }
 }
