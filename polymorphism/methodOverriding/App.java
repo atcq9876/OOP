@@ -10,7 +10,7 @@ package polymorphism.methodOverriding;
 // implementation of a method that is already defined in its superclass. This
 // enables a subclass to customize or extend the behavior of its superclass.
 // In this example of method overriding, Cat and Dog are child classes of Animal
-// and have overriden Animal's speak method:
+// and so inherit the speak() method, but then respectively override this:
 
 public class App {
     public static void main(String[] args) {
